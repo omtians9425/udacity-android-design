@@ -28,7 +28,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:fontFamily="@font/lobster_two"
+            android:fontFamily="monospace"
             android:text="@string/about_google_developer_groups"
             android:textAllCaps="true"
             android:textColor="#555555"
