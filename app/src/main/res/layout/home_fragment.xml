@@ -50,7 +50,7 @@
             android:id="@+id/subtitle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            style="@style/TextAppearance.Title.Subtitle"
+            style="@style/TextAppearance.Subtitle"
             android:layout_marginTop="13dp"
             android:text="@string/gdgs_are"
             app:layout_constraintEnd_toStartOf="@id/end_grid"
