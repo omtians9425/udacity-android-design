@@ -22,6 +22,7 @@
 
             <TextView
                 android:id="@+id/textViewIntro"
+                android:contentDescription="@string/add_gdg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/spacing_normal"
@@ -50,6 +51,7 @@
 
             <EditText
                 android:id="@+id/EditTextName"
+                android:hint="@string/your_name_label"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
@@ -64,6 +66,7 @@
 
             <EditText
                 android:id="@+id/EditTextEmail"
+                android:hint="@string/email_label"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
@@ -78,6 +81,7 @@
 
             <EditText
                 android:id="@+id/EditTextCity"
+                android:hint="@string/city_label"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
@@ -92,6 +96,7 @@
 
             <EditText
                 android:id="@+id/EditTextCountry"
+                android:hint="@string/country_label"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
@@ -106,6 +111,7 @@
 
             <EditText
                 android:id="@+id/EditTextRegion"
+                android:hint="@string/region_label"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
@@ -134,6 +140,7 @@
 
             <TextView
                 android:id="@+id/labelTextWhy"
+                android:contentDescription="@string/motivation"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
@@ -146,6 +153,7 @@
 
             <EditText
                 android:id="@+id/EditTextWhy"
+                android:contentDescription="@string/enter_motivation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="32dp"
@@ -168,6 +176,7 @@
                 android:layout_marginEnd="40dp"
                 android:layout_marginBottom="12dp"
                 android:backgroundTint="#00FF00"
+                android:contentDescription="@string/submit_button_description"
                 android:onClick="@{() -> viewModel.onSubmitApplication()}"
                 android:text="Ok"
                 android:textColor="#FF0000"
